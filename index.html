@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    
+        <div class="flex-container">
+                <h2>Tic-Tac-Toe</h2>
+                <div class="grid-box">
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                </div>
+                <div class="result" id="rb">
+                    <div class="result-box" >
+                      <p id="r-txt">X wins</p>
+                      <a href="#" id="playAgain" onClick="window.location.reload();">Play Again</a>
+                      
+                    </div>
+                </div>
+                <div class="starter" id="starter">
+                <div class="buttons starter-buttons">
+                    <button id="player" class="btn">2 Players</button>
+                    <button id="ai" class="btn">1 Player</button>
+                </div>
+              </div>
+          </div>
+
+    <script type="text/javascript" src="./app.js"></script>
+    </body>
+</html>
